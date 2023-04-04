@@ -1,0 +1,136 @@
+{
+    "questions": [
+      {
+        "theme": "Geography",
+        "question_text": "What is the capital of Brazil?",
+        "answers": [
+          {
+            "answer_text": "Rio de Janeiro",
+            "is_correct": false
+          },
+          {
+            "answer_text": "São Paulo",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Brasília",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Salvador",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "theme": "Geography",
+        "question_text": "What is the world's largest desert?",
+        "answers": [
+          {
+            "answer_text": "Sahara",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Arabian",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Gobi",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Kalahari",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "theme": "Geography",
+        "question_text": "Which river flows through the Grand Canyon?",
+        "answers": [
+          {
+            "answer_text": "Mississippi",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Amazon",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Colorado",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Missouri",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "theme": "Geography",
+        "question_text": "What is the largest country in Africa by area?",
+        "answers": [
+          {
+            "answer_text": "Egypt",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Sudan",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Algeria",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Ethiopia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "theme": "Geography",
+        "question_text": "Which country is both an island and a continent?",
+        "answers": [
+          {
+            "answer_text": "Australia",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Madagascar",
+            "is_correct": false
+          },
+          {
+            "answer_text": "New Zealand",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Iceland",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "theme": "History",
+        "question_text": "Who invented the telephone?",
+        "answers": [
+          {
+            "answer_text": "Alexander Graham Bell",
+            "is_correct": true
+          },
+          {
+            "answer_text": "Thomas Edison",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Nikola Tesla",
+            "is_correct": false
+          },
+          {
+            "answer_text": "Guglielmo Marconi",
+            "is_correct": false
+          }
+        ]
+      }
+      ]}
+  

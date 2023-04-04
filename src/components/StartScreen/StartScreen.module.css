@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .show {
+    font-size: 80px;
+    font-weight: bold;
+    color:#FAFA02;
+    text-shadow: 2px 2px #212121;
+  }
+
+  .do {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .milhao {
+    font-size: 80px;
+    font-weight: bold;
+    color: #FAFA02;
+    text-shadow: 2px 2px #212121;
+  }
