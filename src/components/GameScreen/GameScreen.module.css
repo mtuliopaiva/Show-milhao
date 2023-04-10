@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* set the width of each column to 1 fraction of the available space */
+    grid-gap: 10px; /* add a gap of 10px between the columns */
+  }
+  .containerThree {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* set the width of each column to 1 fraction of the available space */
+    grid-gap: 10px; /* add a gap of 10px between the columns */
+  }
+
+  
+  .columnTwo {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 4px;
+    height: 800px;
+  }
+  
+.show {
+    font-size: 40px;
+    font-weight: bold;
+    color:#FAFA02;
+    text-shadow: 2px 2px #212121;
+  }
+
+  .do {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .milhao {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FAFA02;
+    text-shadow: 2px 2px #212121;
+  }
