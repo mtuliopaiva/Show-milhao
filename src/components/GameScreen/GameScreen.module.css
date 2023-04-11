@@ -3,6 +3,23 @@
     grid-template-columns: 1fr 1fr; /* set the width of each column to 1 fraction of the available space */
     grid-gap: 10px; /* add a gap of 10px between the columns */
   }
+  .content{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+  .question{
+    padding-top: 20px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .alternatives{
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+  }
   .containerThree {
     margin-top: 3%;
     display: grid;
@@ -10,14 +27,29 @@
     grid-gap: 10px; /* add a gap of 10px between the columns */
   }
 
-  
   .columnTwo {
     background-color: #000;
     padding: 20px;
     border-radius: 4px;
     height: 800px;
+    color: #000;
   }
-  
+  .card span{
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 10px 10px;
+    color: red;
+    background-color: #FAFA02;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-size: 32px;
+  }
+  .card p {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+
+  }
 .show {
     font-size: 40px;
     font-weight: bold;
@@ -36,4 +68,8 @@
     font-weight: bold;
     color: #FAFA02;
     text-shadow: 2px 2px #212121;
+  }
+  .bar{
+    background-color: #FAFA02;
+    margin: 5px 0;
   }

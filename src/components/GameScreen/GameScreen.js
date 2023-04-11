@@ -14,11 +14,17 @@ const GameScreen = ({ giveUp, question }) => {
             <span className={styles.do}>do</span>
             <span className={styles.milhao}>Milhão</span>
           </h2>
-          <h3>{question.question_text}</h3>
-          <p>1 {question.answers[0].answer_text}</p>
-          <p>2 {question.answers[1].answer_text}</p>
-          <p>3 {question.answers[2].answer_text}</p>
-          <p>4 {question.answers[3].answer_text}</p>
+          <div className={styles.content}>
+            <div className={styles.question}>
+              <h3>{question.question_text}</h3>
+            </div>
+            <div className={styles.alternatives}>
+              <p>1 {question.answers[0].answer_text}</p>
+              <p>2 {question.answers[1].answer_text}</p>
+              <p>3 {question.answers[2].answer_text}</p>
+              <p>4 {question.answers[3].answer_text}</p>
+            </div>
+          </div>
 
           <div className={styles.container}>
 
@@ -27,22 +33,33 @@ const GameScreen = ({ giveUp, question }) => {
 
           </div>
           <div className={styles.containerThree}>
-            <div>
-              Card 1
-            <p>Errar</p>
+            <div className={styles.card}>
+              <span>Perde tudo</span>
+              <p>Errar</p>
             </div>
-            <div>
-              Card 2
-            <p>Parar</p>
+            <div className={styles.card}>
+              <span>R$ 30 mil</span>
+              <p>Parar</p>
             </div>
-            <div>
-              Card 3
-            <p>Acertar</p>
+            <div className={styles.card}>
+              <span>R$ 50 mil</span>
+              <p>Acertar</p>
             </div>
 
           </div>
         </div>
-        <div className={styles.columnTwo}>Coluna 2</div>
+        <div className={styles.columnTwo}>
+          <div className={styles.bar}>R$ 1.000.000</div>
+          <div className={styles.bar}>R$ 500.000</div>
+          <div className={styles.bar}>R$ 300.000</div>
+          <div className={styles.bar}>R$ 200.000</div>
+          <div className={styles.bar}>R$ 100.000</div>
+          <div className={styles.bar}>R$ 75.000</div>
+          <div className={styles.bar}>R$ 50.000</div>
+          <div className={styles.bar}>R$ 30.000</div>
+          <div className={styles.bar}>R$ 10.000</div>
+          <div className={styles.bar}>R$ 5.000</div>
+        </div>
 
       </div>
 
